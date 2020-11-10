@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ProForm</title>
+    <link rel="stylesheet" href="robo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="alg">
+        <div class="navbar-header" id="contents1">
+          <a href="#" class="navbar-brand"><span id="brand"><strong>ProLaBs</strong></span></a>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron container" id="git">
+      <h1 id="key2"><span id="key1">Signin</span></h1>
+      <div id="block1">
+        <div class="form-group">
+          <label for="nameInput">Enter Your Name  : </label>
+          <input type="text" id="nameInput" class="form-control" placeholder="Name in Caps" required>
+          <small>* We make sure that none of your personal details would be shared to any external sources </small>
+      </div>
+      <div class="form-group">
+        <label for="emailInput">Enter your Email Address : </label>
+        <input type="email" id="emailInput" class="form-control" placeholder="Valid email here" required>
+        <small>* This could allow us to be in contact with you to improve your skills </small>
+      </div>
+        <div class="form-group">
+          <label for="passInput">Enter Password : </label>
+          <input type="password" id="passInput" class="form-control" required>
+          <small>* Enter password with minimum 9 characters , with atleast 1 special character and number </small>
+      </div>
+      <div class="form-group">
+         <label for="ctryInput">Enter your country of Residence :</label>
+         <select id="ctryInput" class="form-control">
+           <option value="">Choose the country..</option>
+           <option value="In">INDIA</option>
+           <option value="Ch">CHINA</option>
+           <option value="Fr">FRANCE</option>
+           <option value="UK">UK</option>
+           <option value="USA">USA</option>
+           <option value="Br">BRAZIL</option>
+           <option value="Sp">SPAIN</option>
+           <option value="Gr">GERMANY</option>
+           <option value="Ru">RUSSIA</option>
+         </select>
+      </div>
+      <div class="form-group">
+        <label for="Sta">Enter your Status :</label>
+        <label>
+          <input type="radio" name="PSta" id="Sta" value="Student">Student
+          <input type="radio" name="PSta" id="Sta" value="Pro">Professional
+        </label>
+      </div>
+      <div class="form-group">
+        <a href="index.html"><button type="submit" id="but" class="btn btn-lg">SingIn</button></a>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
