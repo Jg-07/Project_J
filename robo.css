@@ -94,10 +94,15 @@ margin-bottom: 5px;
   padding: 6px 4px 6px 4px;
   color: black;
   background-color: white;
+  transition: padding 0.2s;
   margin: 0px 20px 0px 20px;
 }
 #brand:hover{
+  padding: 8px 6px 8px 6px;
   box-shadow: 0px 0px 3px 3px #bdbdb9;
+}
+h1 #brand:hover{
+  box-shadow: 0px 0px 3px 3px #4c4d4c;
 }
 #tab:hover{
   color: #9d9d9d;
